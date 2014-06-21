@@ -4,7 +4,7 @@
   <title>Test deck</title>
   <meta charset="utf-8">
   <meta name="description" content="Test deck">
-  <meta name="author" content="">
+  <meta name="author" content="Felix">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -32,9 +32,9 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>Test deck</h1>
-    <h2></h2>
-    <p><br/></p>
+    h1>Efficient Portfolios Application</h1>
+    <h2>Efficient Frontiers with no risk-free asset</h2>
+    <p>Felix<br/></p>
   </hgroup>
   <article></article>
 </slide>
@@ -43,13 +43,18 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>App Sumary</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li><p>Select a number of stocks to consider</p></li>
+<li><p>Select the stocks </p></li>
+<li><p>Download Financial Data from Yahoo Finance. Monthly values from 1998.</p></li>
+<li><p>Statistical analysis of time series </p></li>
+<li><p>Calculate Efficient Portfolios & Global Minimum Variance Portfolio and Tangency Portfolio </p></li>
+<li><p>Display Output Graphs and Calculate Value at Risk </p></li>
+  
+  
 </ol>
 
   </article>
@@ -58,16 +63,29 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
-  </hgroup>
+    <h2>Efficient Portfolio</h2>
+    </hgroup>
   <article data-timings="">
-    <pre><code class="r">plot(1:10, 1:10)
-</code></pre>
+ <ol>
+<li><p>Consider two assets A and B with its Returns R, following independent and identically distributed 
+normal distributions</p>
 
-<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+<p>\[R_i\ \sim\ i.i.d. \mathcal{N}(\mu_i,\,\sigma_i^2)\]</p></li>
+<li><p>Portfolio Return and Portfolio Risk (variance) are stated as follows</p></li>
+</ol>
+
+<p>\[\operatorname{E}(R_p) = w_A \operatorname{E}(R_A) + w_B \operatorname{E}(R_B)\]</p>
+
+<p>\[\sigma_p^2  = w_A^2 \sigma_A^2  + w_B^2 \sigma_B^2 + 2w_Aw_B  \sigma_{A} \sigma_{B} \rho_{AB}\]</p>
+
+<ol>
+<li>Therefore, Markowitz Modern Portfolio Theory states that Efficient Portfolios are the result of the
+minimization problem</li>
+</ol>
+
+<p>\[ \underset{w_A, \; w_B}{\operatorname{arg\,min}} \; \sigma_p^2, \; \text{subject to:} \; w_A + w_B = 1\;\]</p>
 
   </article>
-  <!-- Presenter Notes -->
 </slide>
 
     <slide class="backdrop"></slide>
