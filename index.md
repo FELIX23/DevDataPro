@@ -76,3 +76,8 @@ VaR (Value at Risk) is estimated at a 5% level, meaning that there is a 5% proba
 
       
 Check it here at [ShinyApps](https://frpportfolio.shinyapps.io/frpportfolio/)              
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 41ff7b2100fbd412b6c08afed672674383b2bf94
